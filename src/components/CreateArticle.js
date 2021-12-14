@@ -142,7 +142,7 @@ class CreateArticle extends Component {
                             <label htmlFor="title">Título:</label>
                             <input type="text" name="title" ref={this.titleRef} onChange={this.changeState} />
 
-                            {this.validator.message('title', this.state.article.title, 'required|alpha_num_space')}
+                            {this.validator.message('title', this.state.article.title, 'required')}
                         </div>
 
                         <div className="form-group">

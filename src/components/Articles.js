@@ -92,7 +92,7 @@ class Articles extends Component {
 
                         <h2>{article.title}</h2>
                         <span className="date">
-                            <Moment fromNow>{article.date}</Moment>
+                            <Moment locale="es" fromNow>{article.date}</Moment>
                         </span>
                         <Link to={'/blog/articulo/'+ article._id}>Leer más...</Link>
                         

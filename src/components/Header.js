@@ -13,7 +13,7 @@ class Header extends Component {
                     <div id="logo">
                         <img src={logo} className="app-logo" alt="Logotipo" />
                         <span id="brand">
-                            <strong>React</strong>Design
+                            <strong>React</strong>TechBlog
                     </span>
                     </div>
 
@@ -21,7 +21,7 @@ class Header extends Component {
                     <nav id="menu">
                         <ul>
                             <li>
-                                <NavLink to="/home" activeClassName="active">React</NavLink>
+                                <NavLink to="/home" activeClassName="active">Inicio</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/blog" activeClassName="active">Blog</NavLink>
@@ -30,13 +30,7 @@ class Header extends Component {
                                 <NavLink to="/formulario" activeClassName="active">Formulario</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/portfolio" activeClassName="active">Home</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/Angular" activeClassName="active">Angular</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/Vue" activeClassName="active">Vue</NavLink>
+                            <a href="https://luisenguerrero.netlify.app" target="blank" to="/portfolio" activeClassName="active">Sobre Mi</a>
                             </li>
                         </ul>
                     </nav>

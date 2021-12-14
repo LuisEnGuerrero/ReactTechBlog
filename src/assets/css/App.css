@@ -262,7 +262,7 @@ body {
 .btn-warning {
   background: rgb(255, 171, 0) !important;
   color: white !important;
-  float: left;
+  text-align: center !important; 
 
 }
 
@@ -270,7 +270,7 @@ body {
   background: rgb(255, 0, 0) !important;
   color: white !important;
   float: left;
-  margin-right: 20px;
+  margin-right: 5px;
 
 }
 

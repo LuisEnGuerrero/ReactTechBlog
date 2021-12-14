@@ -6,7 +6,7 @@ const Footer = () => {
         <footer id="footer">
             <div className="center">
                 <p>
-                    &copy; Copyright 2021 - Luis Enrique Guerrero: <strong>Máster en Frameworks</strong> para JavaScript
+                    &copy; Copyright 2021 - <a href="https://luisenguerrero.netlify.app" target="blank">Luis Enrique Guerrero:</a> <strong>Máster en Frameworks</strong> para JavaScript
             </p>
             </div>
         </footer>

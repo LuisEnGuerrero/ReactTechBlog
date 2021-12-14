@@ -11,7 +11,7 @@ class Home extends Component {
             <div id="home">
                 
                 <Slider
-                    title="Gracias por visitarme! Este Sitio está Diseñado con React!"
+                    title="Gracias por Visitarnos! Este Sitio está Diseñado con React!"
                     btn="Ir al Blog"
                     size="slider-big"
                 />
